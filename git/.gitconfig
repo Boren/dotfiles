@@ -1,12 +1,17 @@
 [user]
 	name = Fredrik Bore
 	email = fredrikbore@gmail.com
+    signingkey = 212C4E1BF7E9B564
 
 [github]
 	user = boren
 
+[commit]
+    gpgsign = true
+
 [core]
-	editor = vim
+    editor = vim
+    eol = lf
 	excludesfile = ~/.gitignore
 
 [alias]

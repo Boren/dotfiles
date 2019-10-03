@@ -5,8 +5,10 @@ echo
 
 if [[ $REPLY =~ ^[Yy]$ ]]; then
 	ln -sf $SRC_DIR/git/.gitconfig ~/.gitconfig
-	ln -sf $SRC_DIR/git/.gitignore ~/.gitignore	
-	ln -sf $SRC_DIR/zsh/.zshrc ~/.zshrc
+	ln -sf $SRC_DIR/git/.gitignore ~/.gitignore
+    ln -sf $SRC_DIR/gpg/* ~/.gnupg/
+	ln -sf $SRC_DIR/ssh/config ~/.ssh/config
+    ln -sf $SRC_DIR/zsh/.zshrc ~/.zshrc
 	ln -sf $SRC_DIR/zsh/.env ~/.env
 	ln -sf $SRC_DIR/vim/ ~/.vim
 	printf "Done.\n"

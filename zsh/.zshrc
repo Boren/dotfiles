@@ -14,6 +14,7 @@ antigen bundle compleat
 antigen bundle git-extras
 antigen bundle git-flow
 antigen bundle npm
+antigen bundle ssh-agent
 antigen bundle web-search
 antigen bundle z
 antigen bundle zsh-users/zsh-syntax-highlighting
